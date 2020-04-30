@@ -1,2 +1,2 @@
-# wimdo
+# Java Calculator
  
