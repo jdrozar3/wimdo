@@ -1,3 +1,3 @@
 # Java Calculator
  
-[!(./JavaCalculator.mp4)
+![](demo/demo.mp4)
