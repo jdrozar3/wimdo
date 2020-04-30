@@ -1,27 +1,18 @@
-package wimdo;
+package calculator;
 
 import java.awt.EventQueue;
 
 import javax.swing.JFrame;
 import javax.swing.JTextField;
-import java.awt.BorderLayout;
 import java.awt.Color;
 
-import javax.imageio.ImageIO;
-import javax.swing.DropMode;
-import javax.swing.ImageIcon;
-import javax.swing.JMenuBar;
-import java.awt.Component;
-import java.awt.Rectangle;
 import javax.swing.JButton;
 import java.awt.event.ActionListener;
-import java.io.IOException;
 import java.awt.event.ActionEvent;
 import java.awt.Font;
 import javax.swing.SwingConstants;
-import javax.swing.border.Border;
 
-public class wimdoMan {
+public class Calculator {
 
 	private JFrame frame;
 	private JTextField textField;
@@ -41,7 +32,7 @@ public class wimdoMan {
 		EventQueue.invokeLater(new Runnable() {
 			public void run() {
 				try {
-					wimdoMan window = new wimdoMan();
+					Calculator window = new Calculator();
 					window.frame.setVisible(true);
 				} catch (Exception e) {
 					e.printStackTrace();
@@ -53,7 +44,7 @@ public class wimdoMan {
 	/**
 	 * Create the application.
 	 */
-	public wimdoMan() {
+	public Calculator() {
 		initialize();
 	}
 
