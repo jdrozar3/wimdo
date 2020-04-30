@@ -1,3 +1,3 @@
 # Java Calculator
  
-![](demo/demo.gif)
+![](demo/demo.gif | height=100)
